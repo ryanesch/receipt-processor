@@ -37,8 +37,8 @@ var (
 	receipts map[string]Receipt
 )
 
-// Create receipts map as our in-memory database
-// Configure our two endpoints
+// Create receipts map as our in-memory database.
+// Configure our two endpoints.
 func main() {
 	receipts = make(map[string]Receipt)
 
